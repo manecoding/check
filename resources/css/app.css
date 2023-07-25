@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    * {
+        @apply box-border  font-sans
+    }
+    
+   
+    
+    body {
+        @apply scroll-smooth scrollbar-thin scrollbar-track-gray-200 scrollbar-thumb-[#cfcfcf]
+    }
+
+    /* html {
+        @apply 
+    } */
+
+    select {
+        @apply rounded-md border-gray-300 px-3 py-2 border-solid border focus:border-current focus:ring-current sm:text-sm
+    }
+}
